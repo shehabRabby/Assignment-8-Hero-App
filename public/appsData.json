@@ -1,0 +1,544 @@
+[
+  {
+    "image": "https://i.ibb.co/Jv8nKq3/notion-banner.jpg",
+    "title": "Notion - Notes, Tasks, Wikis",
+    "companyName": "Notion Labs, Inc.",
+    "id": 1,
+    "description": "Notion is an all-in-one productivity platform designed to help you organize your life, work, and projects in one place. It combines the best features of note-taking apps, task managers, and collaboration tools, giving users the flexibility to create personalized workspaces that fit their unique needs. Whether you’re a student managing assignments, a professional planning a project, or a team collaborating on shared documents, Notion offers a modular system where you can build pages, link databases, embed media, and more. Its drag-and-drop interface makes creating layouts easy and intuitive. You can design custom dashboards, track habits, or build knowledge bases with minimal effort. Notion also supports markdown formatting, real-time collaboration, and offline access for uninterrupted productivity. The app syncs seamlessly across devices, so you can access your workspace anywhere.",
+    "size": 245,
+    "reviews": 1589000,
+    "ratingAvg": 4.7,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MpDshnK/canva-banner.jpg",
+    "title": "Canva - Design, Photo & Video",
+    "companyName": "Canva Pty Ltd",
+    "id": 2,
+    "description": "Canva is a creative design tool that allows anyone — from students to professional designers — to create stunning visuals effortlessly. With a massive library of templates, fonts, and elements, users can design everything from social media graphics and resumes to posters and marketing materials without needing professional design skills. The drag-and-drop interface simplifies the process, letting users combine images, videos, and text seamlessly. Canva also offers real-time collaboration, enabling teams to work together on the same design projects from anywhere in the world. The app’s mobile version makes it easy to design on the go, with access to millions of free and premium photos, illustrations, and animations. Canva’s advanced editing features, including background remover, brand kits, and AI-powered Magic Write, take creativity to the next level. For businesses, Canva simplifies branding with tools for maintaining consistent visual identity across campaigns.",
+    "size": 310,
+    "reviews": 2950000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 17000 },
+      { "name": "2 star", "count": 23000 },
+      { "name": "3 star", "count": 64000 },
+      { "name": "4 star", "count": 390000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/KswQ5G6/todoist-banner.jpg",
+    "title": "Todoist - To Do List & Planner",
+    "companyName": "Doist Inc.",
+    "id": 3,
+    "description": "Todoist is a powerful task management app designed to bring order to your personal and professional life. It offers a sleek and minimal interface where you can capture tasks, set priorities, and track your progress effortlessly. With intelligent features like natural language input, you can add tasks simply by typing phrases like 'Meet John tomorrow at 3 PM.' The app automatically recognizes the date, time, and context. Todoist supports projects, subtasks, and labels to help you structure your workflow. Whether you’re organizing a school project, managing work deadlines, or planning daily errands, Todoist adapts to your needs. Its cross-platform sync ensures that your tasks are always up-to-date across mobile, desktop, and web. With Karma productivity points and visual progress charts, Todoist motivates you to stay consistent. It integrates with popular services such as Google Calendar, Slack, and Alexa, allowing seamless scheduling and voice-controlled task creation.",
+    "size": 190,
+    "reviews": 990000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 19000 },
+      { "name": "3 star", "count": 32000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 710000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/CK1H3Th/spotify-banner.jpg",
+    "title": "Spotify - Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "Spotify is the world’s leading music streaming platform, offering access to millions of songs, podcasts, and audiobooks. It revolutionized how people discover and enjoy music by introducing personalized playlists like Discover Weekly and Release Radar, which adapt to each user’s unique taste. Spotify allows free users to listen with ads or upgrade to Premium for ad-free playback, offline downloads, and higher sound quality. The app’s design is sleek and intuitive, featuring smart search tools and curated recommendations that keep you engaged. Whether you’re studying, working out, or chilling, Spotify has playlists for every mood and moment. Its integration with social media lets users share what they’re listening to, follow friends, and even collaborate on playlists.",
+    "size": 310,
+    "reviews": 32000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2600000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MpRHtzJ/duolingo-banner.jpg",
+    "title": "Duolingo - Language Lessons",
+    "companyName": "Duolingo, Inc.",
+    "id": 5,
+    "description": "Duolingo is a gamified language learning app that makes studying new languages fun, engaging, and effective. Designed for learners of all ages, it offers short, interactive lessons that help users master vocabulary, grammar, and pronunciation. Duolingo’s approach turns learning into a game — each lesson feels like a level, with points, streaks, and achievements keeping motivation high. It offers over 30 languages including Spanish, French, Japanese, and Korean. The app uses spaced repetition and adaptive learning algorithms to ensure long-term retention. Each session includes reading, writing, listening, and speaking exercises to develop all-round fluency. With bite-sized daily lessons, learners can study anytime, anywhere.",
+    "size": 150,
+    "reviews": 19000000,
+    "ratingAvg": 4.7,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 230000 },
+      { "name": "2 star", "count": 340000 },
+      { "name": "3 star", "count": 880000 },
+      { "name": "4 star", "count": 3300000 },
+      { "name": "5 star", "count": 14500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/F7F7rRp/telegram-banner.jpg",
+    "title": "Telegram - Fast Messaging",
+    "companyName": "Telegram FZ-LLC",
+    "id": 6,
+    "description": "Telegram is a cloud-based messaging app known for its unmatched speed, privacy, and versatility. It allows users to send messages, images, videos, and files of any format, all synced seamlessly across devices. Telegram offers group chats that can host up to 200,000 members, making it ideal for large communities. Its secret chats feature end-to-end encryption, self-destructing messages, and screenshot alerts for maximum privacy. With cloud storage, your data is safe and accessible anywhere. Telegram also offers bots, stickers, themes, and customizable features that elevate user experience. It’s lightweight, ad-free, and designed for both personal and professional communication worldwide.",
+    "size": 230,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 260000 },
+      { "name": "2 star", "count": 410000 },
+      { "name": "3 star", "count": 940000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 7900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/XskhLk2/whatsapp-banner.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 7,
+    "description": "WhatsApp is one of the most popular messaging apps globally, offering secure and fast communication through text, voice, and video. With end-to-end encryption, users can chat confidently knowing their messages are protected. The app supports group chats, voice notes, media sharing, and even real-time location sharing. WhatsApp Web enables users to sync messages across computers for easy access. It’s widely used for both personal and business communication due to its simplicity and reliability. Regular updates introduce new features like disappearing messages, communities, and HD photo sharing, making WhatsApp an essential app for staying connected anywhere, anytime.",
+    "size": 210,
+    "reviews": 85000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300000 },
+      { "name": "2 star", "count": 2400000 },
+      { "name": "3 star", "count": 3900000 },
+      { "name": "4 star", "count": 8900000 },
+      { "name": "5 star", "count": 69000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9Ntbsjx/pinterest-banner.jpg",
+    "title": "Pinterest - Visual Discovery",
+    "companyName": "Pinterest, Inc.",
+    "id": 8,
+    "description": "Pinterest is a digital inspiration hub where users explore, collect, and organize creative ideas. From home decor and fashion to recipes and DIY projects, Pinterest helps users discover visuals tailored to their interests. Each idea, or 'Pin', can be saved to boards, creating a personalized visual library. Its smart recommendation system suggests related content based on what users love. Pinterest is not just for individuals — it’s a powerful marketing tool for brands and creators. With a clean, calming design and an endless stream of visuals, Pinterest turns creativity into daily motivation, helping millions turn ideas into reality.",
+    "size": 275,
+    "reviews": 12500000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 240000 },
+      { "name": "2 star", "count": 390000 },
+      { "name": "3 star", "count": 880000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 8700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/VmG7C2b/google-maps-banner.jpg",
+    "title": "Google Maps - Navigation & Explore",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Maps is the ultimate navigation tool, helping users explore the world with precision and ease. It offers real-time GPS navigation, traffic conditions, and route planning for drivers, cyclists, and pedestrians. The app includes detailed reviews, photos, and ratings for millions of businesses and attractions. Street View allows users to virtually visit destinations before traveling. Offline maps ensure access without an internet connection. With features like Live View AR directions and real-time transit updates, it’s essential for travelers and commuters alike. Google Maps continues to innovate, making exploration smarter, safer, and more accessible for everyone.",
+    "size": 320,
+    "reviews": 145000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2600000 },
+      { "name": "2 star", "count": 4200000 },
+      { "name": "3 star", "count": 8700000 },
+      { "name": "4 star", "count": 23000000 },
+      { "name": "5 star", "count": 105000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/xSvW8cT/snapseed-banner.jpg",
+    "title": "Snapseed - Photo Editor",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Snapseed is a professional photo editing app created by Google, designed for both beginners and photographers. It offers over 25 tools and filters including HDR, healing, and curves. Users can fine-tune brightness, contrast, saturation, and structure with precision. Snapseed supports RAW editing, giving complete control over image adjustments. Selective editing lets users enhance specific parts of an image. The interface is clean, fast, and powerful, allowing edits without losing image quality. Whether it’s color correction or creative styling, Snapseed brings desktop-level photo editing to your phone, making every photo Instagram-ready with minimal effort.",
+    "size": 95,
+    "reviews": 22000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 430000 },
+      { "name": "3 star", "count": 910000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 17600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/6wMLGsp/tiktok-banner.jpg",
+    "title": "TikTok - Short Videos",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 11,
+    "description": "TikTok is a short-form video platform that redefines entertainment and creativity. It lets users record, edit, and share videos with music, effects, and filters. The app’s powerful algorithm curates content based on user preferences, ensuring endless fun and discovery. Creators can gain millions of followers, start trends, and collaborate globally. TikTok supports live streaming, challenges, and duet features for engagement. Its editing tools are intuitive yet advanced, making it perfect for both casual users and influencers. With vibrant content and a global audience, TikTok has become the center of modern internet culture.",
+    "size": 350,
+    "reviews": 135000000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3900000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9700000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 93000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/PrVmF1T/netflix-banner.jpg",
+    "title": "Netflix - Watch TV Shows & Movies",
+    "companyName": "Netflix, Inc.",
+    "id": 12,
+    "description": "Netflix is the world’s most popular streaming platform for movies, TV shows, and documentaries. It offers an ever-growing collection of original and licensed content across genres. Users can stream or download titles in HD or 4K for offline viewing. Netflix’s recommendation system suggests shows based on your taste, while multiple profiles let families share one account easily. The app is ad-free, smooth, and updated constantly with global hits. From Stranger Things to Money Heist, Netflix has redefined home entertainment, giving you cinema-level storytelling right from your pocket, wherever and whenever you want.",
+    "size": 420,
+    "reviews": 28000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/FxzPVkG/zoom-banner.jpg",
+    "title": "Zoom - Video Conferencing",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 13,
+    "description": "Zoom is a global leader in video conferencing and collaboration. It enables users to connect via high-quality video, audio, and chat. Whether it’s a business meeting, virtual class, or casual hangout, Zoom ensures reliable communication. Features like screen sharing, breakout rooms, and cloud recordings make it ideal for professional use. Its clean UI and cross-platform compatibility keep things simple and efficient. Zoom also prioritizes security with waiting rooms, encryption, and meeting passcodes. As remote work and learning expand, Zoom continues to bridge distances and connect people across the world effortlessly.",
+    "size": 280,
+    "reviews": 5200000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 290000 },
+      { "name": "3 star", "count": 620000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pJQ5Q5p/reddit-banner.jpg",
+    "title": "Reddit - Dive into anything",
+    "companyName": "Reddit Inc.",
+    "id": 14,
+    "description": "Reddit is a massive online community platform where people connect over shared interests. From memes and gaming to science and advice, there’s a subreddit for every topic imaginable. Users post, comment, and vote, shaping what content trends. Reddit encourages open conversations and diverse perspectives, making it one of the internet’s most engaging social spaces. With awards, live chats, and customizable feeds, users can personalize their experience. It’s a mix of information, humor, and creativity, powered by millions of communities that reflect the best of online culture and human curiosity.",
+    "size": 200,
+    "reviews": 4100000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/JvxGzWB/instagram-banner.jpg",
+    "title": "Instagram - Photos & Reels",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 15,
+    "description": "Instagram is a leading social platform where people share their stories through photos, videos, and reels. It lets users connect, express, and discover global trends visually. With easy editing tools, filters, and effects, creating beautiful posts is effortless. Instagram Reels brings short-form video creativity, while Stories allow daily updates. Businesses and influencers use it for branding, marketing, and engagement. Its Explore page surfaces trending content personalized for every user. With billions of active users, Instagram continues to inspire self-expression, creativity, and connection in the digital age.",
+    "size": 350,
+    "reviews": 155000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3100000 },
+      { "name": "2 star", "count": 4700000 },
+      { "name": "3 star", "count": 9500000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 110000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co/s6hhw7y/google-keep-banner.jpg",
+    "title": "Google Keep - Notes and Lists",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Google Keep is a lightweight and efficient note-taking app that helps you capture your thoughts, reminders, and ideas in a flash. You can create color-coded notes, to-do lists, and voice memos that sync instantly across all your devices. It’s super intuitive — just open, type, and save. You can pin important notes to the top, share them with others, and even set location-based reminders, like getting a ping when you’re near the grocery store. The app integrates seamlessly with Google Workspace, letting you access notes directly from Docs or Gmail. Whether you’re jotting down lecture notes, organizing project ideas, or keeping track of daily errands, Google Keep makes everything simple and accessible.",
+    "size": 95,
+    "reviews": 5100000,
+    "ratingAvg": 4.5,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3650000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/3cfBWWk/microsoft-teams-banner.jpg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 17,
+    "description": "Microsoft Teams is a professional communication and collaboration platform designed for organizations, schools, and hybrid teams. It combines chat, video calls, file sharing, and project management in one hub. You can create channels for topics or departments, schedule online meetings, and share files from OneDrive or SharePoint. Teams integrates with Microsoft 365 apps like Word, Excel, and PowerPoint for seamless productivity. With features like real-time captions, custom backgrounds, and live reactions, meetings feel dynamic and interactive. It also supports integrations with third-party tools like Trello and Asana. Whether you’re working remotely or on-site, Teams keeps everyone connected and productive in one digital workspace.",
+    "size": 350,
+    "reviews": 8900000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 5200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/kBcwMDh/vsco-banner.jpg",
+    "title": "VSCO - Photo & Video Editor",
+    "companyName": "Visual Supply Company",
+    "id": 18,
+    "description": "VSCO is a creative photo and video editing app popular among creators and influencers for its cinematic filters and artistic effects. The app provides professional-grade editing tools like exposure, contrast, color grading, and film-like presets that give your content a unique aesthetic. It’s perfect for building a consistent visual style on Instagram, TikTok, or Pinterest. VSCO also features a social platform where users can share edits, discover inspiration, and connect with artists around the world. With the paid VSCO Membership, you unlock hundreds of premium presets and advanced tools like HSL and video editing. Whether you’re a beginner or pro, VSCO helps you bring your visual stories to life beautifully.",
+    "size": 200,
+    "reviews": 3500000,
+    "ratingAvg": 4.4,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 240000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/qybH3Df/trello-banner.jpg",
+    "title": "Trello - Organize Anything",
+    "companyName": "Atlassian Corporation Plc",
+    "id": 19,
+    "description": "Trello is a visual project management app that helps individuals and teams stay organized using boards, lists, and cards. You can track tasks, assign members, add deadlines, and attach files — all in a drag-and-drop interface. Trello’s strength lies in its simplicity and flexibility; it can be used for everything from managing work projects to planning vacations. It integrates with tools like Slack, Google Drive, and Jira for enhanced workflow automation. Users can also set up Butler automations to streamline repetitive actions. Whether you’re running a startup, managing a classroom, or organizing personal goals, Trello adapts to your workflow and keeps productivity effortless and visual.",
+    "size": 180,
+    "reviews": 2100000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/zmMBbtb/snapseed-banner.jpg",
+    "title": "Snapseed - Photo Editor by Google",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Snapseed is a professional photo editing app created by Google that combines simplicity with powerful editing tools. It’s perfect for photographers who want to fine-tune their shots with precision. The app includes over 25 tools and filters, from basic adjustments like brightness and contrast to advanced features such as curves, healing, selective edits, and HDR Scape. Snapseed supports RAW image editing, making it a favorite among DSLR photographers. The intuitive interface and non-destructive workflow allow endless experimentation. You can also save your custom looks for quick reuse. Whether it’s fixing lighting, enhancing portraits, or creating artistic effects, Snapseed makes mobile photo editing fast, easy, and pro-level.",
+    "size": 150,
+    "reviews": 2400000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 550000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/F3cJLHy/pinterest-banner.jpg",
+    "title": "Pinterest - Ideas and Inspiration",
+    "companyName": "Pinterest, Inc.",
+    "id": 21,
+    "description": "Pinterest is your digital inspiration board for discovering creative ideas across every topic imaginable. Whether you’re into fashion, interior design, cooking, tech, or travel, Pinterest helps you collect, save, and organize visuals that inspire you. You can browse millions of images and short videos shared by users worldwide, and easily create personalized boards to plan projects or dream up future goals. The app’s smart algorithm recommends content based on your interests, helping you explore trends and ideas you might love. It’s also a great tool for small business owners and creators to showcase their products visually. With features like shoppable Pins, direct links, and collaborative boards, Pinterest makes creativity and discovery feel endless. It’s not just social media—it’s where inspiration lives.",
+    "size": 120,
+    "reviews": 9800000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 5800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/64jRwYb/zoom-banner.jpg",
+    "title": "Zoom - One Platform to Connect",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 22,
+    "description": "Zoom is a powerful video conferencing platform built for communication, learning, and collaboration. It’s widely used for meetings, classes, webinars, and social gatherings. The app delivers high-quality video and audio with features like screen sharing, breakout rooms, reactions, and background customization. Zoom’s reliability and cross-platform support make it the go-to app for remote work and online education. Users can schedule meetings, record sessions, and even stream directly to platforms like YouTube. Businesses love its integration with calendars, Slack, and Google Workspace. With end-to-end encryption and advanced admin controls, Zoom keeps your conversations private and secure. Whether it’s a work call, a virtual event, or a catch-up with friends, Zoom helps you connect anytime, anywhere.",
+    "size": 300,
+    "reviews": 12000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/BG4mgdT/discord-banner.jpg",
+    "title": "Discord - Chat, Talk & Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 23,
+    "description": "Discord is a modern communication app made for communities, gamers, and friend groups who want to stay connected. It combines text chat, voice channels, and video calls all in one clean interface. Users can create or join servers, organize conversations by topics, and share files or media instantly. Discord also supports custom emojis, bots, and moderation tools to help manage communities easily. Beyond gaming, it’s now used by students, content creators, and teams for study groups, podcasts, and events. Nitro subscribers get upgraded features like better quality streaming and animated emojis. With high stability, minimal lag, and cross-device syncing, Discord feels like a virtual home where you can chill, create, and collaborate freely.",
+    "size": 290,
+    "reviews": 18000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 11500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/kK8pksZ/medium-banner.jpg",
+    "title": "Medium - Read and Write Stories",
+    "companyName": "A Medium Corporation",
+    "id": 24,
+    "description": "Medium is a storytelling platform built for people who love to read, write, and share ideas. It connects writers and readers through high-quality, thoughtful content covering topics like technology, culture, productivity, and personal growth. The app’s clean, distraction-free design focuses on the writing itself, creating an enjoyable reading experience. You can follow your favorite authors, highlight quotes, and save stories for later. For writers, Medium provides a simple editor and the chance to reach millions of readers instantly. The Partner Program allows creators to earn based on engagement and reading time. Whether you’re a casual blogger or a professional writer, Medium offers the perfect platform to express yourself and connect with an audience that values depth and authenticity.",
+    "size": 180,
+    "reviews": 1500000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1080000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/gS6x7Fq/amazon-banner.jpg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 25,
+    "description": "Amazon Shopping gives you instant access to millions of products from all over the world. From electronics and clothing to groceries and books, the app lets you browse, compare, and purchase effortlessly. The intuitive interface includes smart filters, voice search, and real-time tracking for orders. Prime members enjoy exclusive deals, lightning-fast delivery, and access to Prime Video and Music. The app’s recommendation system personalizes your experience based on your searches and purchases. You can also manage wish lists, check reviews, and chat with customer support directly. With secure payment options and global shipping, Amazon turns your phone into a powerful online marketplace. Shopping has never been faster, safer, or more convenient.",
+    "size": 250,
+    "reviews": 45000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 32000000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co/8sW0YRd/netflix-banner.jpg",
+    "title": "Netflix - Watch TV Shows & Movies",
+    "companyName": "Netflix, Inc.",
+    "id": 26,
+    "description": "Netflix is one of the world’s leading streaming platforms for movies, series, and documentaries. It offers a massive library of entertainment content across every genre — from action and anime to romance and thrillers. The app provides personalized recommendations powered by AI, ensuring you always find something you’ll love. You can download shows for offline viewing, create multiple profiles, and even adjust video quality based on your data usage. Netflix Originals like Stranger Things, The Witcher, and Money Heist have become global sensations. With an intuitive interface and ad-free experience, Netflix sets the gold standard for digital entertainment. Whether you’re binge-watching your favorite drama or exploring new documentaries, Netflix makes movie nights effortless.",
+    "size": 380,
+    "reviews": 55000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1600000 },
+      { "name": "2 star", "count": 1900000 },
+      { "name": "3 star", "count": 3100000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 40800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/RYHC2mQ/instagram-banner.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 27,
+    "description": "Instagram is a social media platform centered around photo and video sharing, creativity, and connection. It allows users to express themselves through posts, Reels, and Stories, while connecting with friends, brands, and creators worldwide. The app offers powerful editing tools, filters, and music integration to make every post stand out. Businesses and influencers use Instagram to grow audiences, engage followers, and sell products directly through shops. Features like DMs, live streaming, and Notes make staying in touch easy and fun. Its algorithm tailors your feed to your interests, while Explore helps you discover new trends and creators. Whether you’re building a personal brand or just sharing memories, Instagram turns your moments into inspiration for millions.",
+    "size": 270,
+    "reviews": 150000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4500000 },
+      { "name": "2 star", "count": 5800000 },
+      { "name": "3 star", "count": 9400000 },
+      { "name": "4 star", "count": 23000000 },
+      { "name": "5 star", "count": 108000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/6nB7GPM/telegram-banner.jpg",
+    "title": "Telegram - Fast Messaging App",
+    "companyName": "Telegram FZ-LLC",
+    "id": 28,
+    "description": "Telegram is a fast, secure, and feature-rich messaging app designed for privacy-focused communication. It allows you to send text messages, media, documents, and large files without compression limits. Telegram supports channels for broadcasting to large audiences, and groups that can host up to 200,000 members. The app’s secret chat mode offers end-to-end encryption for maximum security. With its cloud-based system, your data syncs instantly across all devices. Telegram also includes bots, stickers, and themes to make chatting more fun. Its lightweight performance and lack of ads make it a top choice for users who want speed and reliability. Whether you’re chatting with friends or running a community, Telegram keeps it all seamless and secure.",
+    "size": 210,
+    "reviews": 12000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/fxSKBq4/adobe-express-banner.jpg",
+    "title": "Adobe Express - Graphic Design",
+    "companyName": "Adobe Inc.",
+    "id": 29,
+    "description": "Adobe Express is a versatile graphic design and content creation app made for anyone who wants to create stunning visuals quickly. It features templates for social posts, flyers, logos, and presentations — all customizable with drag-and-drop ease. You can edit photos, trim videos, and even remove backgrounds in seconds. With access to Adobe Fonts and Stock assets, your projects always look professional. Adobe Express integrates cloud syncing with Creative Cloud, so your designs are accessible anywhere. The app’s AI-powered tools help you design smarter and faster. Whether you’re a small business owner, influencer, or student, Adobe Express lets you create like a pro — no design degree needed.",
+    "size": 240,
+    "reviews": 3100000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pjzqM8d/reddit-banner.jpg",
+    "title": "Reddit - Dive into Anything",
+    "companyName": "Reddit Inc.",
+    "id": 30,
+    "description": "Reddit is a community-driven platform where millions of people share stories, memes, news, and ideas across countless interests. It’s organized into subreddits — topic-based forums that cover everything from gaming and tech to art, finance, and memes. You can post, comment, upvote, or just browse discussions. Reddit thrives on authenticity and open conversation, making it a hub for honest opinions and humor. The app’s home feed adapts to your subscribed communities, keeping your interests front and center. Whether you’re looking for advice, entertainment, or niche knowledge, Reddit connects you to people who care about the same things you do. It’s the internet’s ultimate discussion board — raw, real, and endlessly engaging.",
+    "size": 260,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 7700000 }
+    ]
+  }
+]

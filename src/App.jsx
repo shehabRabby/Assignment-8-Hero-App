@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <h1 >Vite + React</h1>
+      <img src="https://commons.wikimedia.org/wiki/File:App_Store_(iOS).svg" alt="" />
       
     </>
   );
