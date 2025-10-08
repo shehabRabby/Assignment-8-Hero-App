@@ -13,7 +13,7 @@ const ProductCart = ({product}) => {
     const { image, title, companyName, id, description, size, reviews, ratingAvg, downloads } = product;
     return (
         <div className=''>
-            <div className='border-1 p-4 bg-white shadow-sm'>
+            <div className='rounded p-4 bg-white shadow-sm'>
                 <img src={image} alt="app icon" className='h-[316px] w-full rounded'/>
                     <p className="text-xl font-semibold text-gray-800 tracking-tight my-1">{title}</p>
                 <div className='flex justify-between my-2'>
