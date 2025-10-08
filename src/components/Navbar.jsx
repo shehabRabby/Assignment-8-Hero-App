@@ -5,7 +5,8 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div className="navbar shadow-sm px-5 lg:px-12 flex justify-between border-purple-400 border-1">
+       <div className='navbar shadow'>
+        <div className="px-5 lg:px-12 flex items-center justify-between border-purple-100 border-1 container mx-auto">
             {/* Left Section */}
             <div className="navbar-start flex items-center gap-3 w-auto">
               
@@ -49,6 +50,7 @@ const Navbar = () => {
                  <span className="hidden sm:inline">Contribution</span>
               </a>
             </div>
+       </div>
        </div>
     );
 };

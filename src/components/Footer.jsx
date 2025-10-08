@@ -3,8 +3,8 @@ import icon from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div >
-    <footer className="footer p-10 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white sm:footer-horizontal">
+    <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+    <footer className="container mx-auto footer px-5 md:px-0 py-10 text-white sm:footer-horizontal">
      
         {/* Logo & Branding */}
         <div className="flex flex-col items-center sm:items-start gap-2">
