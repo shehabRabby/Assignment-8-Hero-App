@@ -1,10 +1,11 @@
 import React from 'react';
 import icon from '../../assets/logo.png';
+import { Link } from 'react-router';
 
 
 const Navbar = () => {
     return (
-        <div className="navbar shadow-sm px-5 lg:px-12 flex justify-between border-purple-400 border-1 my-5">
+        <div className="navbar shadow-sm px-5 lg:px-12 flex justify-between border-purple-400 border-1">
             {/* Left Section */}
             <div className="navbar-start flex items-center gap-3 w-auto">
               
@@ -17,25 +18,27 @@ const Navbar = () => {
     
                 {/* Dropdown Menu*/}
                 <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-48 p-2 shadow font-semibold">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/">Apps</a></li>
-                  <li><a href="/">Installation</a></li>
+                  <li><Link to="/">Home</Link></li>
+                  <li><Link to="/apps">Apps</Link></li>
+                  <li><Link to="/install">Installation</Link></li>
                 </ul>
               </div>
     
               {/* Logo */}
+              <Link to='/'>
               <div className="flex items-center gap-2 ml-2">
                 <img className="h-10" src={icon} alt="logo" />
                 <h1 className="text-xl text-[#9F62F2] font-bold">HERO.IO</h1>
               </div>
+              </Link>
             </div>
     
             {/* Center Links */}
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1 font-semibold gap-3">
-                <li><a href="/" className="hover:text-[#9F62F2] transition">Home</a></li>
-                <li><a href="/" className="hover:text-[#9F62F2] transition">Apps</a></li>
-                <li><a href="/" className="hover:text-[#9F62F2] transition">Installation</a></li>
+                <li><Link href="/home" className="hover:text-[#9F62F2] transition">Home</Link></li>
+                <li><Link to="/apps" className="hover:text-[#9F62F2] transition">Apps</Link></li>
+                <li><Link to="/install" className="hover:text-[#9F62F2] transition">Installation</Link></li>
               </ul>
             </div>
     
