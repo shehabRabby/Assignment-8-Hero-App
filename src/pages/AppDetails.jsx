@@ -4,6 +4,7 @@ import useApps from "../hooks/useApps";
 import dwnld from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
 import liked from "../../assets/icon-review.png";
+import error404 from "../../assets/App-Error.png"
 import { Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart} from "recharts";
 
 
@@ -16,7 +17,11 @@ const AppDetails = () => {
   if (!product) {
     return (
       <div className="flex justify-center items-center h-[80vh] text-gray-500 text-lg">
-        Loading product details....
+        <span>
+            <p className="text-center text-5xl font-bold text-[#520e52]">Apps</p>
+            <img src={error404} alt="Error Massage" />
+        </span>
+        
       </div>
     );
   }

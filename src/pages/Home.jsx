@@ -20,8 +20,8 @@ const Home = () => {
         ))}
       </div>
 
-      <div className="container mx-auto text-center my-5 mb-10">
-        <Link to='/apps' className="text-white px-10 py-1 bg-gradient-to-b from-[#632EE3] to-[#9F62F2] rounded">Show All</Link>
+      <div className="container mx-auto text-center pb-10">
+        <Link to='/apps' className="text-white px-10 py-2 bg-gradient-to-b from-[#632EE3] to-[#9F62F2] rounded">Show All</Link>
       </div>
 
     </div>
