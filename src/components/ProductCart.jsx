@@ -12,21 +12,33 @@ const formatDownloads = (num) => {
 const ProductCart = ({product}) => {
     const { image, title, companyName, id, description, size, reviews, ratingAvg, downloads } = product;
     return (
-        <div className=''>
-            <div className='rounded p-4 bg-white shadow-sm'>
-                <img src={image} alt="app icon" className='h-[316px] w-full rounded'/>
-                    <p className="text-xl font-semibold text-gray-800 tracking-tight my-1">{title}</p>
-                <div className='flex justify-between my-2'>
-                    <span className='text-green-500 bg-green-200 flex items-center gap-1 p-1 px-2 rounded'>
-                        <i class="fa-solid fa-arrow-down"></i>
-                        <p>{formatDownloads(downloads)}</p>
-                    </span>
-                    <span className='text-orange-600 bg-orange-200 flex items-center gap-1 p-1 px-2 rounded'>
-                        <i class="fa-solid fa-star"></i>
-                        <p>{ratingAvg.toFixed(1)}</p>
-                    </span>
+        <div>
+           <div className="rounded-xl p-4 bg-white shadow-md hover:shadow-lg transition-all duration-300 w-full h-[420px] flex flex-col">
+              <div className="h-[250px] w-full overflow-hidden rounded-lg">
+                <img
+                  src={image}
+                  alt="app banner"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+
+              <div className="flex-1 flex flex-col justify-between mt-3">
+                <p className="text-lg font-semibold text-gray-800">
+                  {title}
+                </p>
+            
+                <div className="flex justify-between items-center mt-3">
+                  <span className="text-green-600 bg-green-100 flex items-center gap-1 p-1 px-2 rounded-md text-sm">
+                    <i className="fa-solid fa-arrow-down"></i>
+                    <p>{formatDownloads(downloads)}</p>
+                  </span>
+                  <span className="text-orange-600 bg-orange-100 flex items-center gap-1 p-1 px-2 rounded-md text-sm">
+                    <i className="fa-solid fa-star"></i>
+                    <p>{ratingAvg.toFixed(1)}</p>
+                  </span>
                 </div>
-            </div>
+              </div>
+           </div>
         </div>
     );
 };

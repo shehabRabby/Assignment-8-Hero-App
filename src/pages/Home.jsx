@@ -1,20 +1,29 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import ProductCart from "../components/ProductCart";
 import Trusted from "../components/Trusted";
+import useApps from "../hooks/useApps";
+
 
 const Home = () => {
-  const products = useLoaderData();
-  // console.log(allAppData)
+  
+  const {products, loading, error} = useApps()
+  const featuredProduct = products.slice(0,8)
+ 
   return (
     <div className='bg-[#d2d2d21a]'>
-       <Trusted></Trusted>
+      <Trusted></Trusted>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-6 container mx-auto p-2">
-        {products.map((product) => (
-          <ProductCart key={IDBObjectStore} product={product}></ProductCart>
+        {featuredProduct.map((product) => (
+          <ProductCart key={product.id} product={product}></ProductCart>
         ))}
       </div>
+
+      <div className="container mx-auto text-center my-5 mb-10">
+        <Link to='/apps' className="text-white px-4 py-1 bg-gradient-to-b from-[#632EE3] to-[#9F62F2] rounded">Show All</Link>
+      </div>
+
     </div>
   );
 };
