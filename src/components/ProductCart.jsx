@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 
 
@@ -14,13 +15,15 @@ const ProductCart = ({product}) => {
     return (
         <div>
            <div className="rounded-xl p-4 bg-white shadow-md hover:shadow-lg transition-all duration-300 w-full h-[420px] flex flex-col">
-              <div className="h-[250px] w-full overflow-hidden rounded-lg">
-                <img
-                  src={image}
-                  alt="app banner"
-                  className="h-full w-full object-cover"
-                />
-              </div>
+              <Link to={`/details/${id}`}>
+                <div className="h-[250px] w-full overflow-hidden rounded-lg">
+                  <img
+                    src={image}
+                    alt="app banner"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+             
 
               <div className="flex-1 flex flex-col justify-between mt-3">
                 <p className="text-lg font-semibold text-gray-800">
@@ -38,6 +41,7 @@ const ProductCart = ({product}) => {
                   </span>
                 </div>
               </div>
+               </Link>
            </div>
         </div>
     );
