@@ -12,7 +12,7 @@ const Home = () => {
   const featuredProduct = products.slice(0,8)
 //  #d2d2d21a
   return (
-    <div className='bg-[#c711111a]'>
+    <div className='bg-[#d2d2d23a]'>
       <Trusted></Trusted>
       
       {
@@ -27,7 +27,7 @@ const Home = () => {
 
 
       <div className="container mx-auto text-center pb-10">
-        <Link to='/apps' className="text-white px-10 py-2 bg-gradient-to-b from-[#632EE3] to-[#9F62F2] rounded">Show All</Link>
+        <Link to='/apps' className="text-white px-10 py-2 bg-gradient-to-b from-[#632EE3] to-[#9F62F2] shadow-xl rounded">Show All</Link>
       </div>
 
     </div>

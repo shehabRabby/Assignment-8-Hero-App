@@ -11,7 +11,7 @@ const Apps = () => {
     const searchProducts = term ? products.filter(product => product?.title?.toLowerCase().includes(term)): products;
 
   return (
-    <div className="bg-[#b718181a] py-10">
+    <div className="bg-[#d2d2d23a] min-h-screen py-15">
 
       <div className="container mx-auto text-center">
         <p className="text-2xl font-bold">Our All Applications</p>
