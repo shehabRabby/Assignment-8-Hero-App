@@ -28,13 +28,14 @@ const AppDetails = () => {
 
   const { image, title, description, size, reviews, ratingAvg, downloads} = product || {};
 
-    const chartData = product.ratings.map((r) => ({
+
+  const chartData = product.ratings.map((r) => ({
         star: r.name, 
         count: r.count,
-    }));
+  }));
   
 
-  const formatDownloads = (num) => {
+ const formatDownloads = (num) => {
     if (num >= 1000000000) return Math.floor(num / 1000000000) + "B";
     if (num >= 1000000) return Math.floor(num / 1000000) + "M";
     if (num >= 1000) return Math.floor(num / 1000) + "K";
@@ -46,7 +47,27 @@ const AppDetails = () => {
     if (num >= 1000000) return Math.floor(num / 1000000) + "M";
     if (num >= 1000) return Math.floor(num / 1000) + "K";
     return num;
-  };
+  }; 
+
+  // localStore handle here 
+  const handleToInstallation = () => {
+     const existingList = JSON.parse(localStorage.getItem("installList"));
+      let updatedList = [];
+
+      if(existingList) {
+            const isDuplicate = existingList.some(p=> p.id === product.id)
+            if(isDuplicate){
+                return alert("Already Added This App")
+            }
+            updatedList = [...existingList,product];
+        }else{
+            updatedList.push(product);
+        }
+
+    localStorage.setItem('installList',JSON.stringify(updatedList))
+    alert("Item Installed")
+  }
+
 
   return (
     <div className="container mx-auto px-4">
@@ -87,10 +108,12 @@ const AppDetails = () => {
 
          {/* install button  */}
           <section className="text-center sm:text-left mt-3">
-            <button className="border px-6 py-2 bg-gradient-to-t from-[#1ebf33] to-[#64dc4c] text-white rounded font-semibold hover:opacity-90 transition">
+            <button onClick={handleToInstallation} className="border px-6 py-2 bg-gradient-to-t from-[#1ebf33] to-[#64dc4c] text-white rounded font-semibold hover:opacity-90 transition">
               Install Now ({size} MB)
             </button>
           </section>
+
+
         </div>
       </div>
       

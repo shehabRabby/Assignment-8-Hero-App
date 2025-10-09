@@ -10,15 +10,12 @@ const ErrorPage = () => {
     <>
       <Navbar></Navbar>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center p-6">
-        <img
-          src={error404}
-          alt="Error illustration"
-          className="w-80 mb-6"
-        />
+        <img src={error404} alt="Error illustration" className="w-80 mb-6" />
 
         <h1 className="text-3xl font-bold text-gray-800 mb-2">
-          Oops! Something Went Wrong Page Not Found
+          Oops! Something Went Wrong
         </h1>
+        <p className="text-gray-800 font-sans">The page you are looking for is not available.</p>
 
         <p className="text-gray-600 mb-4">
           {error?.statusText || error?.message || "Unexpected error occurred."}
