@@ -1,20 +1,8 @@
 Live Link : https://meek-starship-b0f762.netlify.app/
 
----
-## Private Repo-Link : please create your own public repository for this assignment.
----
-
-# 🐣 Basic Requirements
-
-- Make the Application Responsive for All the Devices
-- Do minimum 5 commits to your github Repository
-- Give a meaning full name to your application
-- Make Sure on Production Application is error Free
 - Add a Readme.md with App Name , Description & Technologies
 
----
 
-# 🔧 Main Requirements
 
 ## 1. 🧱 Layout & Data Design
 

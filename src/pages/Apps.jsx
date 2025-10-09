@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import useApps from "../hooks/useApps";
 import ProductCart from "../components/ProductCart";
 import { Link } from "react-router";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 const Apps = () => {
-    const { products } = useApps();
+    const { products,loading } = useApps();
     const [search,setSearch] = useState('');
     const term = search.trim().toLowerCase();
     const searchProducts = term ? products.filter(product => product?.title?.toLowerCase().includes(term)): products;
 
   return (
-    <div className="bg-[#b718181a]">
+    <div className="bg-[#b718181a] py-10">
 
-      <div className="container mx-auto text-center py-15">
+      <div className="container mx-auto text-center">
         <p className="text-2xl font-bold">Our All Applications</p>
         <small className="text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</small>
       </div>
@@ -43,13 +44,19 @@ const Apps = () => {
                </div>
              )
            }
+
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-6 container mx-auto p-2">
-        {searchProducts.map((product) => (
-          <ProductCart key={product.id} product={product}></ProductCart>
-        ))}
-      </div>
+      {
+        loading ?( <LoadingSpinner count ={16}></LoadingSpinner>
+        ):(
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-6 container mx-auto p-2">
+             {searchProducts.map((product) => (
+               <ProductCart key={product.id} product={product}></ProductCart>
+             ))}
+         </div>
+        )
+      }
     </div>
   );
 };

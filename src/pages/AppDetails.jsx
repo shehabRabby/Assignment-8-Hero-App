@@ -118,7 +118,7 @@ const AppDetails = () => {
             </div>
           </section>
           
-          {/* install button  */}
+          {/* install button abale disable */}
          <section className="text-center sm:text-left mt-3">
             <button onClick={handleToInstallation}  disabled={isInstalled}
               className={`border px-6 py-2 rounded font-semibold transition ${

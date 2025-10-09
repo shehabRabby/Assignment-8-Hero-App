@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
-       <div className='navbar shadow'>
+       <div className='navbar shadow sticky top-0 z-50 bg-purple-100'>
         <div className="px-5 lg:px-12 flex items-center justify-between border-purple-100 border-1 container mx-auto">
             {/* Left Section */}
             <div className="navbar-start flex items-center gap-3 w-auto">
