@@ -46,7 +46,7 @@ const Installation = () => {
       }
     })();
 
-//   uninstall Function 
+  // uninstall Function 
   const handleRemoveFromWishlist = (id) => {
     const existingList = JSON.parse(localStorage.getItem("installList"));
     let updatedList = existingList.filter((p) => p.id !== id);
@@ -93,12 +93,9 @@ const Installation = () => {
             <section className='py-10 px-2'>
                { sortedItem.map(p=>
                  <div key={p.id} className="flex flex-col sm:flex-row justify-between items-center  rounded-lg shadow-sm border border-gray-200 p-4 mt-3 hover:shadow-md transition">
-                     {/* image here */}
+                   
                      <div className="flex items-center gap-4 w-full sm:w-auto">
                           <img src={p.image} alt={p.title} className="h-16 w-16 sm:h-20 sm:w-20 object-cover rounded-md bg-gray-200"/>
-                            
-                            
-                          {/* Stats here*/}
                            <div>
                                <p className="text-gray-800 font-semibold text-sm sm:text-base">{p.title}</p>
                                <div className="flex items-center gap-4 mt-1 text-sm text-gray-600">
@@ -117,7 +114,7 @@ const Installation = () => {
                      </div>
 
                      {/* Uninstall Button here */}
-                     <button  onClick={() => handleRemoveFromWishlist(p.id)} className="mt-3 sm:mt-0 bg-green-500 hover:bg-green-600 text-white font-medium px-5 py-1.5 rounded-lg transition-all">Uninstall</button>
+                     <button onClick={() => handleRemoveFromWishlist(p.id)} className="mt-3 sm:mt-0 bg-green-500 hover:bg-green-600 text-white font-medium px-5 py-1.5 rounded-lg transition-all">Uninstall</button>
                  </div>  
                 )
                 }

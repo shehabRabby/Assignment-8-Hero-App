@@ -22,14 +22,24 @@ const AppDetails = () => {
   },[product?.id])
 
 
+  // app details loading spinner  
+   if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[80vh]">
+        <div className="w-16 h-16 border-4 border-purple-300 border-t-purple-600 rounded-full animate-spin"></div>
+        <p className="ml-10 text-3xl font-bold text-[#520e52] animate-pulse">
+          Loading App Details............
+        </p>
+      </div>
+    );
+  }
+
+  //wrong path spinner
   if (!product) {
     return (
-      <div className="flex justify-center items-center h-[80vh] text-gray-500 text-lg">
-        <span>
-            <p className="text-center text-5xl font-bold text-[#520e52]">Apps</p>
-            <img src={error404} alt="Error Massage" />
-        </span>
-        
+      <div className="flex justify-center items-center h-[80vh]text-lg flex-col space-y-4 pt-15 animate-pulse">
+        <img src={error404} alt="Error Massage"/>
+        <p className="text-center text-5xl font-bold text-[#6b1e4b]">Path</p>    
       </div>
     );
   }

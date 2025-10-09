@@ -12,10 +12,10 @@ const Trusted = () => {
             <p className="text-gray-500 font-normal my-4">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className="flex justify-center gap-3">
                 <a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&hl=en"  target="_blank"  rel="noopener noreferrer">
-                  <button className="flex border-1 border-gray-400 px-4 py-1 rounded items-center"> <span className="mr-2" ><img src={playStore} alt="" /></span> Google Pay</button>
+                  <button className="flex border-1 border-gray-400 px-4 py-1 rounded items-center"> <span className="mr-2 cursor-pointer " ><img src={playStore} alt="" /></span> Google Pay</button>
                 </a>
                 <a href="https://play.google.com/store/apps?hl=en"  target="_blank"  rel="noopener noreferrer">
-                  <button className="flex border-1 border-gray-400 px-4 py-1 rounded items-center"> <span className="mr-2" ><img src={appStore} alt="" /></span> App Store</button>
+                  <button className="flex border-1 border-gray-400 px-4 py-1 rounded items-center"> <span className="mr-2 cursor-pointer " ><img src={appStore} alt="" /></span> App Store</button>
                 </a>
             </div>
             <div className="flex justify-center mt-10">
