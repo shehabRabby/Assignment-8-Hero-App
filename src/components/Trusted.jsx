@@ -9,7 +9,7 @@ const Trusted = () => {
 
        <div className="container mx-auto text-center pt-12 px-3 md:px-1">
             <p className="text-3xl md:text-5xl font-extrabold">We Build <br /> <span className="text-[#9F62F2]">Productive </span>Apps</p>
-            <p className="text-gray-500 font-light my-4">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+            <p className="text-gray-500 font-normal my-4">At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className="flex justify-center gap-3">
                 <a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox&hl=en"  target="_blank"  rel="noopener noreferrer">
                   <button className="flex border-1 border-gray-400 px-4 py-1 rounded items-center"> <span className="mr-2" ><img src={playStore} alt="" /></span> Google Pay</button>

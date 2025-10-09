@@ -1,18 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import dwnld from "../../assets/icon-downloads.png";
 import star from "../../assets/icon-ratings.png";
 import liked from "../../assets/icon-review.png";
 import error404 from "../../assets/App-Error.png"
+import { ToastContainer, toast } from 'react-toastify';
 import { Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart} from "recharts";
 
 
 const AppDetails = () => {
   const { id } = useParams();
   const { products, loading, error } = useApps();
-
+  const [isInstalled,setIsInstalled] = useState(false);
   const product = products.find((p) => p.id === parseInt(id));
+
+  useEffect(()=>{
+    const installList = JSON.parse(localStorage.getItem("installList")) || [];
+    const installed = installList.some((p) => p.id === product?.id);
+    setIsInstalled(installed);
+  },[product?.id])
+
 
   if (!product) {
     return (
@@ -51,21 +59,25 @@ const AppDetails = () => {
 
   // localStore handle here 
   const handleToInstallation = () => {
-     const existingList = JSON.parse(localStorage.getItem("installList"));
+     const existingList = JSON.parse(localStorage.getItem("installList")) || [];
       let updatedList = [];
 
-      if(existingList) {
-            const isDuplicate = existingList.some(p=> p.id === product.id)
-            if(isDuplicate){
-                return alert("Already Added This App")
-            }
-            updatedList = [...existingList,product];
-        }else{
-            updatedList.push(product);
+      if(existingList)
+        {
+          const isDuplicate = existingList.some(p=> p.id === product.id)
+          if(isDuplicate){
+              return toast("Apss Already Installed")
+          }
+          updatedList = [...existingList,product];
+        }
+      else
+        {
+          updatedList.push(product);
         }
 
     localStorage.setItem('installList',JSON.stringify(updatedList))
-    alert("Item Installed")
+    setIsInstalled(true);
+    toast("Apps Installing...")
   }
 
 
@@ -105,17 +117,21 @@ const AppDetails = () => {
               <p className="font-extrabold text-xl">{formatReviews(reviews)}</p>
             </div>
           </section>
-
-         {/* install button  */}
-          <section className="text-center sm:text-left mt-3">
-            <button onClick={handleToInstallation} className="border px-6 py-2 bg-gradient-to-t from-[#1ebf33] to-[#64dc4c] text-white rounded font-semibold hover:opacity-90 transition">
-              Install Now ({size} MB)
+          
+          {/* install button  */}
+         <section className="text-center sm:text-left mt-3">
+            <button onClick={handleToInstallation}  disabled={isInstalled}
+              className={`border px-6 py-2 rounded font-semibold transition ${
+                isInstalled
+                  ? "bg-gray-400 text-white cursor-not-allowed"
+                  : "bg-gradient-to-t from-[#1ebf33] to-[#64dc4c] text-white hover:opacity-90"
+              }`}
+            >
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
             </button>
           </section>
-
-
-        </div>
-      </div>
+       </div>
+     </div>
       
 
       {/* barchart  */}
@@ -140,6 +156,8 @@ const AppDetails = () => {
           <small className="text-sm font-normal">{description}</small>
         </section>
       </div>
+
+      <ToastContainer></ToastContainer>
 
     </div>
   );
